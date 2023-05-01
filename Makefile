@@ -4,7 +4,7 @@ CFLAGS := $(shell $(XENO_CONFIG) --posix --alchemy --cflags)
 LDFLAGS := $(shell $(XENO_CONFIG) --posix --alchemy --ldflags)
 
 CC := gcc
-EXECUTABLE := semaforo
+EXECUTABLE := Tarea3
 
 all: $(EXECUTABLE)
 
